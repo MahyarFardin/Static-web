@@ -15,7 +15,7 @@ function Nav() {
                 <NavLinks ulist={"flex h-2/4 w-max justify-between align-middle justify-items-end"} />
             </div>
 
-            {menueOn && <NavLinks obj={"fixed p-7 h-full w-1/3 bg-black top-0 left-0"} ulist={"flex-col h-2/4 w-max justify-between align-middle justify-items-end"} />}
+            {menueOn && <NavLinks obj={"fixed p-7 h-full w-2/3 bg-black top-0 left-0"} ulist={"flex-col h-2/4 w-max justify-between align-middle justify-items-end"} />}
 
             <div onClick={handleClick} className='sm:hidden'>
                 {menueOn === false ? <AiOutlineMenu className='items3' size={25} color={"white"} /> : <AiOutlineClose className='items3' size={25} color={"white"} />}
